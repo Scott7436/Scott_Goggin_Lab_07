@@ -77,8 +77,21 @@ public class Main {
             }
             System.out.println();
         }
+    */
+        for (int l = 0; l < 3; l++) //blank lines
+        {
+            System.out.println();
+        }
 
-         */
+        for (int r = 5; r >= 1; r--)
+        {
+            for (int c = 1; c <= r; c++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+
         //-------------------------------------------------------------------------------
         for(int l = 0; l < 3; l++)
         {
